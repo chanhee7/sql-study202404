@@ -52,6 +52,10 @@ SELECT * FROM test_b;
 -- 조인의 원리는 곱하기연산
 -- Cartesian production : product 연산
 -- Cross Join : 가능한 모든 경우의 수를 매칭하여 조회
+SELECT
+    *
+FROM test_a, test_b
+;
 
 -- INNER JOIN
 -- 두 테이블 간에 연관컬럼을 이용하여
